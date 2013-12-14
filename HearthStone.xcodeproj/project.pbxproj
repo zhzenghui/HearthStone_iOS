@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F48C5EF0185CC7C000DC2C31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48C5EEF185CC7C000DC2C31 /* UIKit.framework */; };
+		F48C5EF2185CC7C000DC2C31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48C5EF1185CC7C000DC2C31 /* Foundation.framework */; };
+		F48C5EF4185CC7C000DC2C31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48C5EF3185CC7C000DC2C31 /* CoreGraphics.framework */; };
+		F48C5EFA185CC7C000DC2C31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F48C5EF8185CC7C000DC2C31 /* InfoPlist.strings */; };
+		F48C5EFC185CC7C000DC2C31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C5EFB185CC7C000DC2C31 /* main.m */; };
+		F48C5F00185CC7C000DC2C31 /* ZHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C5EFF185CC7C000DC2C31 /* ZHAppDelegate.m */; };
+		F48C5F02185CC7C000DC2C31 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C5F01185CC7C000DC2C31 /* Default.png */; };
+		F48C5F04185CC7C000DC2C31 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C5F03185CC7C000DC2C31 /* Default@2x.png */; };
+		F48C5F06185CC7C000DC2C31 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C5F05185CC7C000DC2C31 /* Default-568h@2x.png */; };
+		F48C5F09185CC7C000DC2C31 /* ZHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C5F08185CC7C000DC2C31 /* ZHViewController.m */; };
+		F48C5F0C185CC7C000DC2C31 /* ZHViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48C5F0A185CC7C000DC2C31 /* ZHViewController_iPhone.xib */; };
+		F48C5F0F185CC7C000DC2C31 /* ZHViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48C5F0D185CC7C000DC2C31 /* ZHViewController_iPad.xib */; };
+		F48C5F17185CC7C000DC2C31 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48C5F16185CC7C000DC2C31 /* SenTestingKit.framework */; };
+		F48C5F18185CC7C000DC2C31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48C5EEF185CC7C000DC2C31 /* UIKit.framework */; };
+		F48C5F19185CC7C000DC2C31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48C5EF1185CC7C000DC2C31 /* Foundation.framework */; };
+		F48C5F21185CC7C000DC2C31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F48C5F1F185CC7C000DC2C31 /* InfoPlist.strings */; };
+		F48C5F24185CC7C000DC2C31 /* HearthStoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C5F23185CC7C000DC2C31 /* HearthStoneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F48C5F1A185CC7C000DC2C31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48C5EE4185CC7C000DC2C31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F48C5EEB185CC7C000DC2C31;
+			remoteInfo = HearthStone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F48C5EEC185CC7C000DC2C31 /* HearthStone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearthStone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48C5EEF185CC7C000DC2C31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F48C5EF1185CC7C000DC2C31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F48C5EF3185CC7C000DC2C31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F48C5EF7185CC7C000DC2C31 /* HearthStone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HearthStone-Info.plist"; sourceTree = "<group>"; };
+		F48C5EF9185CC7C000DC2C31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F48C5EFB185CC7C000DC2C31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F48C5EFD185CC7C000DC2C31 /* HearthStone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HearthStone-Prefix.pch"; sourceTree = "<group>"; };
+		F48C5EFE185CC7C000DC2C31 /* ZHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHAppDelegate.h; sourceTree = "<group>"; };
+		F48C5EFF185CC7C000DC2C31 /* ZHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHAppDelegate.m; sourceTree = "<group>"; };
+		F48C5F01185CC7C000DC2C31 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F48C5F03185CC7C000DC2C31 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F48C5F05185CC7C000DC2C31 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F48C5F07185CC7C000DC2C31 /* ZHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHViewController.h; sourceTree = "<group>"; };
+		F48C5F08185CC7C000DC2C31 /* ZHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHViewController.m; sourceTree = "<group>"; };
+		F48C5F0B185CC7C000DC2C31 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZHViewController_iPhone.xib; sourceTree = "<group>"; };
+		F48C5F0E185CC7C000DC2C31 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZHViewController_iPad.xib; sourceTree = "<group>"; };
+		F48C5F15185CC7C000DC2C31 /* HearthStoneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearthStoneTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48C5F16185CC7C000DC2C31 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F48C5F1E185CC7C000DC2C31 /* HearthStoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HearthStoneTests-Info.plist"; sourceTree = "<group>"; };
+		F48C5F20185CC7C000DC2C31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F48C5F22185CC7C000DC2C31 /* HearthStoneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HearthStoneTests.h; sourceTree = "<group>"; };
+		F48C5F23185CC7C000DC2C31 /* HearthStoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HearthStoneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F48C5EE9185CC7C000DC2C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48C5EF0185CC7C000DC2C31 /* UIKit.framework in Frameworks */,
+				F48C5EF2185CC7C000DC2C31 /* Foundation.framework in Frameworks */,
+				F48C5EF4185CC7C000DC2C31 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48C5F11185CC7C000DC2C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48C5F17185CC7C000DC2C31 /* SenTestingKit.framework in Frameworks */,
+				F48C5F18185CC7C000DC2C31 /* UIKit.framework in Frameworks */,
+				F48C5F19185CC7C000DC2C31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F48C5EE3185CC7C000DC2C31 = {
+			isa = PBXGroup;
+			children = (
+				F48C5EF5185CC7C000DC2C31 /* HearthStone */,
+				F48C5F1C185CC7C000DC2C31 /* HearthStoneTests */,
+				F48C5EEE185CC7C000DC2C31 /* Frameworks */,
+				F48C5EED185CC7C000DC2C31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F48C5EED185CC7C000DC2C31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F48C5EEC185CC7C000DC2C31 /* HearthStone.app */,
+				F48C5F15185CC7C000DC2C31 /* HearthStoneTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F48C5EEE185CC7C000DC2C31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F48C5EEF185CC7C000DC2C31 /* UIKit.framework */,
+				F48C5EF1185CC7C000DC2C31 /* Foundation.framework */,
+				F48C5EF3185CC7C000DC2C31 /* CoreGraphics.framework */,
+				F48C5F16185CC7C000DC2C31 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F48C5EF5185CC7C000DC2C31 /* HearthStone */ = {
+			isa = PBXGroup;
+			children = (
+				F48C5EFE185CC7C000DC2C31 /* ZHAppDelegate.h */,
+				F48C5EFF185CC7C000DC2C31 /* ZHAppDelegate.m */,
+				F48C5F07185CC7C000DC2C31 /* ZHViewController.h */,
+				F48C5F08185CC7C000DC2C31 /* ZHViewController.m */,
+				F48C5F0A185CC7C000DC2C31 /* ZHViewController_iPhone.xib */,
+				F48C5F0D185CC7C000DC2C31 /* ZHViewController_iPad.xib */,
+				F48C5EF6185CC7C000DC2C31 /* Supporting Files */,
+			);
+			path = HearthStone;
+			sourceTree = "<group>";
+		};
+		F48C5EF6185CC7C000DC2C31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F48C5EF7185CC7C000DC2C31 /* HearthStone-Info.plist */,
+				F48C5EF8185CC7C000DC2C31 /* InfoPlist.strings */,
+				F48C5EFB185CC7C000DC2C31 /* main.m */,
+				F48C5EFD185CC7C000DC2C31 /* HearthStone-Prefix.pch */,
+				F48C5F01185CC7C000DC2C31 /* Default.png */,
+				F48C5F03185CC7C000DC2C31 /* Default@2x.png */,
+				F48C5F05185CC7C000DC2C31 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F48C5F1C185CC7C000DC2C31 /* HearthStoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				F48C5F22185CC7C000DC2C31 /* HearthStoneTests.h */,
+				F48C5F23185CC7C000DC2C31 /* HearthStoneTests.m */,
+				F48C5F1D185CC7C000DC2C31 /* Supporting Files */,
+			);
+			path = HearthStoneTests;
+			sourceTree = "<group>";
+		};
+		F48C5F1D185CC7C000DC2C31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F48C5F1E185CC7C000DC2C31 /* HearthStoneTests-Info.plist */,
+				F48C5F1F185CC7C000DC2C31 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F48C5EEB185CC7C000DC2C31 /* HearthStone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48C5F27185CC7C000DC2C31 /* Build configuration list for PBXNativeTarget "HearthStone" */;
+			buildPhases = (
+				F48C5EE8185CC7C000DC2C31 /* Sources */,
+				F48C5EE9185CC7C000DC2C31 /* Frameworks */,
+				F48C5EEA185CC7C000DC2C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HearthStone;
+			productName = HearthStone;
+			productReference = F48C5EEC185CC7C000DC2C31 /* HearthStone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F48C5F14185CC7C000DC2C31 /* HearthStoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48C5F2A185CC7C000DC2C31 /* Build configuration list for PBXNativeTarget "HearthStoneTests" */;
+			buildPhases = (
+				F48C5F10185CC7C000DC2C31 /* Sources */,
+				F48C5F11185CC7C000DC2C31 /* Frameworks */,
+				F48C5F12185CC7C000DC2C31 /* Resources */,
+				F48C5F13185CC7C000DC2C31 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F48C5F1B185CC7C000DC2C31 /* PBXTargetDependency */,
+			);
+			name = HearthStoneTests;
+			productName = HearthStoneTests;
+			productReference = F48C5F15185CC7C000DC2C31 /* HearthStoneTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F48C5EE4185CC7C000DC2C31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "zeng hui";
+			};
+			buildConfigurationList = F48C5EE7185CC7C000DC2C31 /* Build configuration list for PBXProject "HearthStone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F48C5EE3185CC7C000DC2C31;
+			productRefGroup = F48C5EED185CC7C000DC2C31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F48C5EEB185CC7C000DC2C31 /* HearthStone */,
+				F48C5F14185CC7C000DC2C31 /* HearthStoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F48C5EEA185CC7C000DC2C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48C5EFA185CC7C000DC2C31 /* InfoPlist.strings in Resources */,
+				F48C5F02185CC7C000DC2C31 /* Default.png in Resources */,
+				F48C5F04185CC7C000DC2C31 /* Default@2x.png in Resources */,
+				F48C5F06185CC7C000DC2C31 /* Default-568h@2x.png in Resources */,
+				F48C5F0C185CC7C000DC2C31 /* ZHViewController_iPhone.xib in Resources */,
+				F48C5F0F185CC7C000DC2C31 /* ZHViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48C5F12185CC7C000DC2C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48C5F21185CC7C000DC2C31 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F48C5F13185CC7C000DC2C31 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F48C5EE8185CC7C000DC2C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48C5EFC185CC7C000DC2C31 /* main.m in Sources */,
+				F48C5F00185CC7C000DC2C31 /* ZHAppDelegate.m in Sources */,
+				F48C5F09185CC7C000DC2C31 /* ZHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48C5F10185CC7C000DC2C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48C5F24185CC7C000DC2C31 /* HearthStoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F48C5F1B185CC7C000DC2C31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F48C5EEB185CC7C000DC2C31 /* HearthStone */;
+			targetProxy = F48C5F1A185CC7C000DC2C31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F48C5EF8185CC7C000DC2C31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48C5EF9185CC7C000DC2C31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F48C5F0A185CC7C000DC2C31 /* ZHViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48C5F0B185CC7C000DC2C31 /* en */,
+			);
+			name = ZHViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F48C5F0D185CC7C000DC2C31 /* ZHViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48C5F0E185CC7C000DC2C31 /* en */,
+			);
+			name = ZHViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		F48C5F1F185CC7C000DC2C31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48C5F20185CC7C000DC2C31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F48C5F25185CC7C000DC2C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F48C5F26185CC7C000DC2C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F48C5F28185CC7C000DC2C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HearthStone/HearthStone-Prefix.pch";
+				INFOPLIST_FILE = "HearthStone/HearthStone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F48C5F29185CC7C000DC2C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HearthStone/HearthStone-Prefix.pch";
+				INFOPLIST_FILE = "HearthStone/HearthStone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F48C5F2B185CC7C000DC2C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HearthStone.app/HearthStone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HearthStone/HearthStone-Prefix.pch";
+				INFOPLIST_FILE = "HearthStoneTests/HearthStoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F48C5F2C185CC7C000DC2C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HearthStone.app/HearthStone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HearthStone/HearthStone-Prefix.pch";
+				INFOPLIST_FILE = "HearthStoneTests/HearthStoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F48C5EE7185CC7C000DC2C31 /* Build configuration list for PBXProject "HearthStone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48C5F25185CC7C000DC2C31 /* Debug */,
+				F48C5F26185CC7C000DC2C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48C5F27185CC7C000DC2C31 /* Build configuration list for PBXNativeTarget "HearthStone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48C5F28185CC7C000DC2C31 /* Debug */,
+				F48C5F29185CC7C000DC2C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F48C5F2A185CC7C000DC2C31 /* Build configuration list for PBXNativeTarget "HearthStoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48C5F2B185CC7C000DC2C31 /* Debug */,
+				F48C5F2C185CC7C000DC2C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F48C5EE4185CC7C000DC2C31 /* Project object */;
+}
